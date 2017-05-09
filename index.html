@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>RePark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/opensanshebrew.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--JS-->
+
+    <!--Responsive Style-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+        <!--Header Logo-->
+            <section class="logo">
+                <div class="row" id="generic">
+                    <div class="col-sm-12">
+                    <a href="" class="weblink"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+            </section>
+        <!--Header Logo-->
+
+        <!--Content-->
+            <section class="content">
+                <div class="row divbg">
+                    <div class="col-sm-6 imz" dir="rtl">
+                        <div class="txt">
+                            <a href="" ><img src="img/shekelicon.png" class="icon" alt=""></a>
+                            <span class="title">הכנסה בטוחה</span> <br>
+                            <p class="sereh">הדרך הקלה והבטוחה להפוך <br> את החניה שלך לנכס מניב</p>
+                        </div>
+                        <div class="txt2">
+                            <a href="" ><img src="img/mahsom-icon.png" class="icon zin" alt=""></a>
+                            <span class="title">חונים בקלות</span> <br>
+                            <p class="sereh">שיתוף החניה שלך יאפשר לנהגים <br> למצוא חניה במקומות שעד עכשיו <br> הם לא יכלו לחנות בהם</p>
+                        </div>
+                        <div class="txt3">
+                            <a href="" ><img src="img/30-icon.png" class="icon" alt=""></a>
+                            <span class="title">יש יותר חניה בעיר</span> <br>
+                            <p class="sereh Pp">שיתוף החניות פרטיות, <br> מוסיף עוד 30% חניות <br> לעיר, וזה המון.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--IPHONE Container-->
+            <section class="phonebox">
+                <div class="row">
+                    <div class="col-sm-12 general">
+                        <div class="col-sm-6 iphone">
+
+                        </div>
+                    </div>
+                </div>
+            <!--/IPHONE Container-->
+            </section>
+        </div>
+    </div>
+    <div class="betoh">
+        <div class="divkolel">
+            <div class="phonetoplogo">
+                <p class="koteret" dir="rtl">רוצה <br> להתחיל להרוויח <br> מהחניה שלך?</p>
+            </div>
+            <div class="stbtn" dir="rtl">
+                <p class="sign">נרשמים עכשיו ל RePark <br> כבעלי חניה ומתחילים להרוויח כסף.</p>
+                <button type="button" class="btn btn-secondary hathel">להרשמה ></button>
+                <br>
+                <span class="howitwork">איך זה עובד?</span>
+            </div>
+        </div>
+        <div class="step2" style="display: none">
+            <div class="step2top">
+                <p class="koteret2" dir="rtl">אישור חניה טלפוני</p>
+            </div>
+            <div class="iconim" dir="rtl">
+                <img src="img/icon-1.png" class="icon-1" alt="">
+                <p class="harshama">נרשמים ל RePark כבעלי חניה</p>
+            </div>
+            <div class="iconim2" dir="rtl">
+                <img src="img/icon-2.png" class="icon-2" alt="">
+                <p class="harshama">קובעים את המחיר ואת שעות החניה</p>
+            </div>
+            <div class="iconim3" dir="rtl">
+                <img src="img/icon-3.png" class="icon-3" alt="">
+                <p class="harshama">צוות RePark יגיע ויתקין שלט בחניה</p>
+            </div>
+            <div class="iconim4" dir="rtl">
+                <img src="img/icon-4.png" class="icon-4" alt="">
+                <p class="harshama">אתם מתחילים להרוויח</p>
+            </div>
+            <div class="stbtn" dir="rtl">
+                <button type="button" class="btn btn-secondary hathel">להרשמה ></button>
+            </div>
+        </div>
+        <div class="step3" dir="rtl" style="display: none">
+            <div class="secondpage">
+                <p class="toper">הרשמה</p>
+                <span class="hez" id="harshama">></span>
+            </div>
+            <div class="welcome">
+                <p class="welcometxt">ברוכים הבאים ל RePark</p>
+                <p class="phone">יש להזין את מספר הטלפון הנייד</p>
+                <div class="inputphone">
+                    <input type="tel" maxlength="10" placeholder="0545555555">
+                </div>
+            </div>
+            <div class="botstp">
+                <p class="horaot">בלחיצה על "המשך" יישלח אליך קוד אימות בסמס.</p>
+                <div class="forbtn">
+                    <button type="button" class="btn btn-lg next">המשך</button>
+                </div>
+            </div>
+        </div>
+        <div class="step4" dir="rtl" style="display: none">
+            <div class="secondpage two">
+                <p class="toper">אימות מספר טלפון</p>
+                <span class="hez sheni" id="imutmispar">></span>
+            </div>
+            <div class="verifydiv">
+                <p class="miad">מייד יישלח קוד אימות בסמס. <br> יש להקליד אותו כאן:</p>
+                <div class="verify" dir="ltr">
+                    <input class="numb" maxlength="1" >
+                    <input class="numb" maxlength="1" >
+                    <input class="numb" maxlength="1" >
+                    <input class="numb" maxlength="1" >
+                    <input class="numb" maxlength="1" >
+                </div>
+            </div>
+            <div class="botstp steper">
+                <span href="#" class="horaot not">לא קבלתי קוד</span>
+            </div>
+        </div>
+        <div class="step5" dir="rtl" style="display: none">
+            <div class="secondpage">
+                <p class="toper">אימות מספר טלפון</p>
+                <span class="hez sheni" id="zehumispar">></span>
+            </div>
+            <div class="submitdiv">
+                <p class="ques">האם זה מספר הטלפון שלך?</p>
+                <p class="ifu">במידה ולא יש לעדכן את המספר</p>
+                <div class="inputphone">
+                    <input type="tel" maxlength="10" placeholder="0545555555">
+                </div>
+            </div>
+            <div class="botstp">
+                <p class="horaot onit">בלחיצה על "אישור" קוד האימות ישלח שוב בסמס</p>
+                <div class="forbtn">
+                    <button type="button" class="btn btn-lg submit">אישור</button>
+                </div>
+                <p class="try">ניסיתם מספר פעמים ועדיין לא קבלתם קוד בסמס? <br> לקבלת קוד בשיחת טלפון <span class="taphere">לחצו כאן</span></p>
+            </div>
+        </div>
+        <!--multisteps-->
+
+        <div class="multi" style="display: none" dir="rtl">
+            <div class="secondpage">
+                <p class="toper">פרטי החניה</p>
+            </div>
+            <div class="secondpage2" style="display: none">
+                <p class="toper" >אישור חניה טלפוני</p>
+                <span class="hez shlishi" id="ishurhanaya">></span>
+            </div>
+            <div class="row form-group" dir="ltr">
+                <div class="kovea">
+                    <ul class="nav nav-pills nav-justified thumbnail setup-panel">
+                        <li class="active"><a href="#step-1">
+                        </a></li>
+                        <li class="disabled"><a href="#step-2">
+                        </a></li>
+                        <li class="disabled"><a href="#step-3">
+                        </a></li>
+                        <li class="disabled"><a href="#step-4">
+                        </a></li>
+                        <li class="disabled"><a href="#step-5">
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <form class="container" id="multis">
+                <div class="row setup-content" id="step-1">
+                    <div class="col-xs-12">
+                        <span class="heznew">></span>
+                        <div class="col-md-12 well text-center">
+                            <!-- <form> -->
+                            <div class="step6" dir="rtl">
+                                <form dir="rtl">
+                                    <div class="form-group formforstep1">
+                                        <label class="labelim" for="ktovet"><span class="cohavit">*</span>כתובת החניה:</label>
+                                        <input type="text" class="form-control" id="ktovet" placeholder="הפעמונים">
+                                    </div>
+                                    <div class="form-group formforstep2">
+                                        <label class="labelim2" max for="misparbait"><span class="cohavit">*</span>מספר בית:</label>
+                                        <input type="text" class="form-control" maxlength="3" id="misparbait" placeholder="23">
+                                    </div>
+                                    <div class="form-group formforstep3">
+                                        <label class="labelim3" for="town"><span class="cohavit">*</span>עיר:</label>
+                                        <input type="text" class="form-control" id="town" placeholder="תל אביב">
+                                    </div>
+                                    <div class="form-group formforstep4">
+                                        <label class="labelim4" for="explain"><span class="cohavit">*</span>מיקום החניה:</label>
+                                        <textarea class="form-control" id="explain" rows="3" placeholder="צרפו בבקשה תיאור קצר ופרטים שיסייעו לנהג לחנות! דוגמא: כניסה מצד שמאל לבניין, חנייה שלישית משמאל, צמוד לקיר."></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <button id="activate-step-2" class="btn btn-primary btn-md">המשך</button>
+            <form class="container">
+                <div class="row setup-content" id="step-2">
+                    <div class="col-xs-12 overflow">
+                        <span class="heztwo">></span>
+                        <div class="col-md-12 well text-center">
+                            <!-- <form> -->
+                            <div class="prati" dir="rtl">
+                                <p class="ilu">אילו רכבים ניתן להחנות בחניה שלך?</p>
+                                <div class="checkbox" id="kompact">
+                                    <label><br><input type="checkbox" value=""></label>
+                                    <p class="forbox l1">קומפקטי</p>
+                                </div>
+                                <div class="checkbox" id="regular">
+                                    <label><br><input type="checkbox" value=""></label>
+                                    <p class="forbox l2">רגיל</p>
+                                </div>
+                                <div class="checkbox" id="big">
+                                    <label><br><input type="checkbox" value="" ></label>
+                                    <p class="forbox l3">גדול</p>
+                                </div>
+                            </div>
+                            <div class="prati shel" dir="rtl">
+                                <p class="ilu">מאפייני חניה</p>
+                                <div class="checkbox" id="nemuha">
+                                    <label><br><input type="checkbox" value=""></label>
+                                    <p class="forbox l4">נמוכה</p>
+                                </div>
+                                <div class="checkbox" id="mekura">
+                                    <label><br><input type="checkbox" value=""></label>
+                                    <p class="forbox l5">מקורה</p>
+                                </div>
+                                <div class="checkbox" id="nehim">
+                                    <label><br><input type="checkbox" value="" ></label>
+                                    <p class="forbox l6">נגישה לנכים</p>
+                                </div>
+                            </div>
+                            <div class="prati gate" dir="rtl">
+                                <p class="ilu">האם יש שער לחנייה?</p>
+                                <div class="col-sm-12 maim">
+                                    <div class="col-sm-6 col-xs-6 shaar">יש שער</div>
+                                    <div class="col-sm-6 col-xs-6 einshaar">אין שער</div>
+                                </div>
+                                <div class="neelam" style="display: none">
+                                    <p class="ilu" id="openeddiv">אופן פתיחת שער</p>
+                                    <div class="col-sm-12 maim">
+                                        <div class="col-sm-4 col-xs-6" id="manual" >ידני</div>
+                                        <div class="col-sm-4 col-xs-6"  id="withphone">טלפון</div>
+                                        <div class="col-sm-4 col-xs-6" id="control">שלט</div>
+                                    </div>
+                                    <div class="inputphone" id="stephone" dir="rtl" style="display: none">
+                                        <input id="phoneforgare" type="tel" maxlength="10" placeholder="*הזן מספר טלפון של השער">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 btndiv">
+                        <button id="activate-step-3" class="btn btn-primary btn-md lifnei">המשך</button>
+                    </div>
+                </div>
+            </form>
+            <form class="container">
+                <div class="row setup-content" id="step-3">
+                    <div class="col-xs-12" dir="rtl">
+                        <span class="hezfour">></span>
+                        <p class="almenat">על מנת שנוכל לשתף את החניה שלכם במערכת, <br> עליכם להשלים תהליך זיהוי טלפוני קצר.</p>
+                        <span class="pushto">לחצו על "התחל"</span> <br>
+                        <div class="col-sm-12 btndiv">
+                            <button id="activate-step-4" class="btn btn-primary btn-md hat">התחל</button>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        </form>
+        <form class="container">
+            <div class="row setup-content" id="step-4">
+                <div class="col-xs-12">
+                    <span class="hezfive" dir="rtl">></span>
+                    <div class="col-md-12 well right neelam" dir="rtl">
+                        <p class="ieshlirs">יש לרשום על דף את המספר המופיע למטה.<br> <br> בעוד כחצי דקה תקבלו שיחת טלפון עם מענה
+                            <br>קולי אוטומטי באנגלית.</p>
+                        <p class="writehere">הקלידו את המספר כאשר תתבקשו.</p>
+                    </div>
+                    <div class="col-sm-12 btndiv2">
+                        <div class="verinumer" dir="ltr">
+                            <li class="klali numb1">7</li>
+                            <li class="klali numb2">0</li>
+                            <li class="klali numb3">1</li>
+                            <li class="klali numb4">8</li>
+                            <li class="klali numb5">3</li>
+                            <li class="klali numb6">6</li>
+                        </div>
+                    </div>
+                    <div class="vi"  dir="rtl" style="display: none">
+                        <a href="" class="tmunav"><img src="img/vi.png" alt=""></a>
+                        <p class="detsave">הפרטים נקלטו במערכת</p>
+                        <span class="odk">נשאר לנו ממש עוד קצת...</span>
+                        <div class="col-sm-12 btndiv3">
+                            <div class="forbtn3" id="almostdone">
+                                <button id="activate-step-5" type="button" class="btn btn-lg done">המשך</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <form class="container">
+            <div class="row setup-content" id="step-5" style="">
+                <div class="col-xs-12">
+                    <span class="hezsix" dir="rtl">></span>
+                    <div class="col-md-12 well text-center">
+                        <!-- <form> -->
+                        <div class="step6" dir="rtl">
+
+                            <div class="form-group formforstep5">
+                                <label class="labelim5" for="fname"><span class="cohavit">*</span>שם פרטי:</label>
+                                <input type="text" class="form-control" id="fname" placeholder="גדי">
+                            </div>
+                            <div class="form-group formforstep6">
+                                <label class="labelim6" for="lname"><span class="cohavit">*</span>שם משפחה:</label>
+                                <input type="text" class="form-control" id="lname" placeholder="פעמוני">
+                            </div>
+                            <div class="form-group formforstep7">
+                                <label class="labelim7" for="bank"><span class="cohavit">*</span>שם הבנק:</label>
+                                <input type="text" class="form-control" id="bank" placeholder="מרכנטיל">
+                            </div>
+                            <div class="form-group formforstep8">
+                                <label class="labelim8" for="banknumber"><span class="cohavit">*</span>מספר הסניף:</label>
+                                <input type="text" class="form-control" maxlength="4" id="banknumber" placeholder="123">
+                            </div>
+                            <div class="form-group formforstep9">
+                                <label class="labelim9" for="accountnumber"><span class="cohavit">*</span>מספר חשבון:</label>
+                                <input type="text" class="form-control" id="accountnumber"  maxlength="11" placeholder="123456789">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forbtn6">
+                    <button id="done-steps" type="button" class="btn btn-lg finish">המשך</button>
+                    <br>
+                    <span id="skip"><דלג</span>
+                </div>
+            </div>
+        </form>
+
+        <!--/multistep-->
+        <div class="lastdiv" style="display:none;" dir="rtl">
+            <img src="img/endcar.png" alt="">
+            <p class="cong"><span class="cong"> מזל טוב</span> אתם בדרך להיות <br> משכירי חניה ב-RePark</p>
+            <div class="parkingtime">
+                <img src="img/clock.png" alt="">
+                <p class="nazig">החניה ממתינה לאישור <br> נציגי RePark יחזרו אליכם תוך 24 שעות.</p>
+                <hr class="kav">
+            </div>
+            <div class="parkingtime sheni">
+                <img src="img/shah.png" alt="">
+                <p class="nazig sheni">בנתיים, אתם מוזמנים לראות <br> כמה כסף אתם יכולים להרוויח
+                    <br> אפילו אם לא חנו אצלכם
+                </p>
+                <p class="interes">כן, מעניין אותי ></p>
+                <hr class="kav">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="Js/jquery-3.2.1.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/js.js"></script>
+    <script>
+        $(".numb").keyup(function () {
+            if (this.value.length == this.maxLength) {
+                $(this).next('.numb').focus();
+            }
+        });
+
+    </script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,62 @@
+@media (max-width: 1100px) {
+    .txt2 {
+        padding-top: 0.2rem;
+        margin-right: 2.1rem;
+    }
+    .txt {
+        margin-top:1.8rem;
+        padding-right:2.1rem;
+    }
+    .txt3 {
+        padding-right:2.2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .checkbox{
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground{
+        background: url(../img/orangebigcar.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground2{
+        background: url(../img/orangeregulatcar.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground3{
+        background: url(../img/orangecompactcar.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground4{
+        background: url(../img/nemuhaktuma.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground5{
+        background: url(../img/mekuraktuma.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    .orangeBackground6{
+        background: url(../img/nehimktuma.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    #nemuha{
+        background: url(../img/memuha.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    #mekura{
+        background: url(../img/mekura.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+    #nehim{
+        margin-left:1rem;
+        background: url(../img/nehim.png) center no-repeat;
+        background-size: 4rem 4rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .checkbox {
+        margin-right: 0.4rem;
+    }
+}

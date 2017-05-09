@@ -1,0 +1,1209 @@
+html {
+    font-size: 1.04vw;
+}
+
+body * {
+    font-family: 'Open Sans Hebrew', sans-serif !important;
+}
+
+.phonebox {
+    font-family: 'Assistant', sans-serif;
+}
+
+.container-fluid {
+    background: url('../img/bg.jpg');
+    background-size: 100% 100%;
+
+}
+
+.container {
+    background: white;
+
+}
+
+
+.weblink {
+    padding: 2.6rem 0 0 8.15rem;
+    display: block;
+}
+
+.divbg{
+    background: url('../img/divbg.png')center no-repeat;
+    height: 20.55rem;
+    background-size: cover;
+}
+
+.content {
+    margin-top: 4.15rem;
+}
+
+img.icon {
+    padding-top: 0.2rem;
+    padding-right: 2.7rem;
+    float: right;
+}
+
+span.title {
+    color: white;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding-right: 1rem;
+}
+p.sereh {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.81);
+    font-size: 0.85rem;
+    margin-right: 1.05rem;
+    padding-bottom: 1.45rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.22);
+    width: 11.5rem;
+}
+
+.txt {
+    margin-top: 1.8rem;
+    padding-right:5.6rem;
+    line-height: 1rem;
+}
+
+.txt2 {
+    padding-top: 0rem;
+    margin-right: 5.65rem;
+    line-height: 1rem;
+}
+
+.txt3 {
+    padding-right: 5.7rem;
+    line-height: 1rem;
+}
+
+img.icon.zin {
+    padding-top: 0.5rem;
+    height: 4.2rem;
+    width: 6.5rem;
+}
+
+p.sereh.Pp {
+    border: none;
+}
+
+.iphone {
+    background: url("../img/iphone.png") no-repeat;
+    background-size: 21.8rem 46.1rem;
+    height: 47.5rem;
+    float: right;
+    margin-right: 2.5rem;
+}
+
+section.phonebox {
+    margin-top: -23.3rem;
+    clear: both;
+}
+
+.betoh {
+    margin-top: -42.6rem;
+    height: 33.5rem;
+    width: 18.85rem;
+    border: solid 1px #d4d4d4;
+    display: block;
+    margin-left: 46.65rem;
+    background: #ecedee;
+    position: relative;
+}
+
+@media (max-width: 1600px) {
+    .betoh {
+        margin-top: -42.6rem;
+        height: 33.5rem;
+        width: 18.85rem;
+        border: solid 1px #d4d4d4;
+        display: block;
+        margin-left: 47.15rem;
+        background: #ecedee;
+        position: relative;
+    }
+}
+.phonetoplogo {
+    background: url("../img/pict.png")center no-repeat;
+    height:16.75rem;
+    background-size: cover;
+}
+
+p.koteret {
+    text-align: center;
+    font-size: 2.55rem;
+    line-height: 3rem;
+    padding-top: 3.25rem;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.stbtn {
+    height: 50%;
+    text-align: center;
+}
+
+p.sign {
+    padding-top: 0.55rem;
+    text-align: center;
+    line-height: 1.65rem;
+    font-size:1.25rem;
+    color: #80787f;
+}
+
+.btn-secondary {
+    background: url("../img/botton.jpg") center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button.btn.btn-secondary {
+    margin: 1.6rem 0.3rem 0 0;
+    padding: 0.3rem 2.15rem 0.3rem 2.15rem;
+    color: white;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 0;
+}
+
+span.howitwork {
+    letter-spacing: 0rem;
+    color: blue;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.koteret2{
+    background: url("../img/orange.png");
+    height: 3.8rem;
+    padding-right: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+}
+.iconim {
+    text-align: center;
+    padding-top: 0.65rem;
+}
+p.harshama {
+    color: #636365;
+    font-size: 0.9rem;
+}
+
+button.btn.btn-secondary.hemsheh {
+    margin-top: 13px;
+}
+
+.imz{
+    z-index: 9;
+}
+
+.iconim2 {
+    text-align: center;
+}
+
+.iconim3 {
+    text-align: center;
+}
+
+.iconim4 {
+    text-align: center;
+}
+
+a {
+    pointer-events: none;
+    cursor: default;
+}
+
+.secondpage {
+    background: #f36f21;
+    height: 4.65rem;
+}
+
+p.toper {
+    padding-top: 1.65rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    display: inline-block;
+}
+
+span.hez {
+    color: white;
+    font-size: 1.5rem;
+    float: left;
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+}
+span.heznew,
+span.heztwo,
+span.hezfour,
+span.hezfive,
+span.hezsix{
+    display: block;
+    float: left;
+    margin-top: -3.7rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+p.welcometxt {
+    padding-top: 1.3rem;
+    font-size: 1.1rem;
+    margin-right: 1.05rem;
+    font-weight: 600;
+    color: #f46e21;
+}
+
+p.phone {
+    padding-right: 1.05rem;
+    font-size: 0.85rem;
+    padding-top: 0.15rem;
+    color: #80787f;
+}
+.inputphone {
+    text-align: center;
+    padding-top: 0.8rem;
+}
+
+input[type="tel"] {
+    text-align: center;
+    border: none;
+    padding-top: 0.5rem;
+    width: 90%;
+    padding-bottom: 0.5rem;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+input::placeholder {
+    color: #80787f;
+    font-weight:bold;
+    font-size:0.9rem;
+}
+
+.welcome {
+    height: 12.5rem;
+    background: white;
+}
+
+p.horaot {
+    font-size: 0.83rem;
+    padding-right: 1.8rem;
+    color: #50494f;
+    padding-top: 0.7rem;
+}
+
+.forbtn {
+    text-align: center;
+}
+
+button.btn.btn-lg.next {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top: 0.2rem;
+    border-radius: 0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+}
+
+
+
+p.miad {
+    font-size: 0.8rem;
+    padding-top: 1.75rem;
+    padding-right: 1.15rem;
+    line-height: 0.9rem;
+    color: #4e494d;
+}
+
+li.numb {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding-left: 0;
+    font-size: 2rem;
+    width: 1.75rem;
+    border-bottom: solid 1px black;
+}
+
+.verify {
+    text-align: center;
+}
+
+.verifydiv {
+    background: white;
+    height: 10.1rem;
+}
+
+.steper {
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+    font-weight: 500;
+    margin-top: 1.65rem;
+    cursor: pointer;
+}
+
+p.ques {
+    font-weight: bold;
+    font-size: 1.04rem;
+    padding-top: 1.35rem;
+    padding-right: 1.1rem;
+    margin-bottom: 0;
+    color: rgba(98, 91, 96, 0.84);
+}
+
+p.ifu {
+    font-size: 0.85rem;
+    padding-right:1.1rem;
+    padding-top:0.45rem;
+    color: #625b60;
+}
+
+.submitdiv {
+    height:11.1rem;
+    background: white;
+}
+
+p.horaot.onit {
+    padding-top: 0.8rem;
+    font-size: 0.85rem;
+    color: #625b60;
+    padding-right: 0;
+    text-align: center;
+}
+
+p.try {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.9rem;
+    line-height: 0.85rem;
+    color: #625b60;
+}
+
+span.taphere {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #625b60;
+}
+
+button.btn.btn-lg.submit {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top:0.7rem;
+    border-radius:0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+}
+
+
+li {
+    display: inline;
+    width:0.3rem;
+    height:0.3rem;
+    margin:0.2rem;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.row.form-group {
+    background: #bcbec0;
+    text-align: center;
+    margin: auto;
+    float: none;
+    position: relative;
+}
+
+.col-xs-12 {
+    width: 100%;
+    margin: auto;
+}
+
+li.active {
+    background: #f27123;
+    border: none;
+}
+
+.kovea {
+    margin: auto;
+}
+
+.row.form-group {
+    height:0.75rem;
+}
+
+.col-md-12.well.text-center {
+    padding: 0;
+    clear: both;
+}
+.step6{
+    margin-top: 1.5rem;
+}
+.formforstep1,
+.formforstep2{
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+.labelim{
+    padding-top:1.55rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+span.cohavit {
+    color: #f46e21;
+    font-size: 0.7rem;
+    vertical-align: text-top;
+    letter-spacing: 0.2rem;
+}
+
+label.labelim2 {
+    padding-top:1.55rem;
+    padding-right:0.4rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+
+.form-group.formforstep1,
+.form-group.formforstep1{
+    text-align: right;
+}
+
+
+
+.setup-content{
+    color: #80787f;
+}
+
+input#ktovet {
+    border-left: none;
+    border-radius: 0;
+    border-right: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+input#misparbait {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep1 {
+    padding-right: 1.25rem;
+}
+
+.form-group.formforstep2 {
+    padding-left: 1.25rem;
+    text-align: right;
+}
+
+#ktovet::placeholder,
+#misparbait::placeholder,
+#town::placeholder
+
+{
+    color: #80787f;
+    font-weight:100 !important;
+    font-size:1rem;
+}
+
+input#town {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+#explain {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep3,
+.form-group.formforstep4{
+    text-align: right;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+.labelim3 {
+    padding-top: 0;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+.labelim4 {
+    padding-top: 0;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+#explain::placeholder
+{
+    color: #80787f;
+    font-weight:100;
+    font-size:0.8rem;
+}
+
+textarea {
+    outline: none;
+}
+button#activate-step-2 {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    border-radius: 0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+    border:none;
+    margin-top:0.9rem;
+    margin-right:3.3rem;
+}
+
+.checkbox{
+    background: url(../img/car.png) center no-repeat;
+    width: 4.17rem;
+    display: inline-block;
+    height: 4.15rem;
+    margin-right: 0.6rem;
+
+}
+
+#regular{
+    background: url(../img/regularcar.png) center no-repeat;
+}
+#big{
+    background: url(../img/bigcar.png) center no-repeat;
+}
+
+.orangeBackground{
+    background: url(../img/orangebigcar.png) center no-repeat;
+}
+.orangeBackground2{
+    background: url(../img/orangeregulatcar.png) center no-repeat;
+}
+.orangeBackground3{
+    background: url(../img/orangecompactcar.png) center no-repeat;
+}
+.orangeBackground4{
+    background: url(../img/nemuhaktuma.png) center no-repeat;
+}
+.orangeBackground5{
+    background: url(../img/mekuraktuma.png) center no-repeat;
+}
+.orangeBackground6{
+    background: url(../img/nehimktuma.png) center no-repeat;
+}
+#nemuha{
+    background: url(../img/memuha.png) center no-repeat;
+}
+#mekura{
+    background: url(../img/mekura.png) center no-repeat;
+}
+#nehim{
+    margin-left:1rem;
+    background: url(../img/nehim.png) center no-repeat;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="checkbox"] {
+    display: none;
+    margin: -1rem auto;
+}
+
+div#big {
+    margin-left: 1rem;
+}
+.prati {
+    height:8.75rem;
+    border-bottom: solid 2px #f1f2f2;
+    margin-bottom:-0.7rem;
+    margin-right:0.95rem;
+    margin-left:0.95rem;
+}
+
+p.ilu {
+    margin-bottom:0.45rem;
+    text-align: right;
+    padding-top:0.5rem;
+    font-weight: bold;
+    font-size: 0.81rem ;
+}
+
+label {
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+p.forbox {
+    font-size: 0.8rem;
+}
+
+.prati.shel {
+    margin-top:0.75rem;
+}
+
+.prati.gate {
+    margin-top:0.65rem;
+}
+
+.col-sm-6.shaar {
+    float: right;
+    border-left: solid 1px;
+    padding: 0;
+    width: 50%;
+}
+
+.col-sm-6.einshaar {
+    display: inline-block;
+    float: left;
+    width: 15rem;
+    padding: 0;
+    width:50%;
+}
+
+.maim {
+    border: solid 1px #a09c9f;
+}
+
+.col-sm-12.maim {
+    display: inline-block;
+    padding: 0;
+}
+
+.shaarkatom{
+    background: #eeefef;
+    color:#f36f21;
+}
+
+.col-sm-12.btndiv {
+    padding: 0;
+    background: #ecedee;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+.prati.gate {
+    height:5.35rem;
+}
+
+button#activate-step-3 {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top:1.4rem;
+    border-radius:0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+    border: none;
+    margin-right:3.25remx;
+}
+p.almenat {
+    text-align: center;
+    padding-top: 1.75rem;
+    line-height: 1rem;
+    font-size: 0.82rem;
+    margin-bottom: 0.5rem;
+    color: #787280;
+}
+
+.secondpage2{
+    background: #f36f21;
+    height:4.65rem;
+}
+
+span.pushto {
+    padding-right:6.7rem;
+    font-size: 0.82rem;
+    margin-bottom:1.4rem;
+    display: block;
+    color: #787280;
+}
+
+button#activate-step-4 {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top:2.05rem;
+    border-radius:0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+    border: none;
+}
+
+p.ieshlirs {
+    line-height:0.9rem;
+    padding-top:1.65rem;
+    margin-bottom:0.6rem;
+    font-size: 0.83rem;
+    color: #585156;
+}
+
+p.writehere {
+    font-size: 0.86rem;
+    font-weight: bold;
+    color: #585156;
+}
+.verinumer {
+    width:9.35rem;
+    margin: auto;
+    border: solid 1px black;
+    padding-top: 2;
+    background: white;
+}
+
+
+li.klali {
+    padding: 0;
+    margin: auto;
+    display: inline-block;
+    width: 0.59rem;
+    z-index: 99 !important;
+    height: auto;
+    font-size:1.55rem;
+    text-indent: 0;
+    font-weight: bold;
+    color: #80787f;
+}
+li.klali.numb1 {
+    margin-left:1.5rem;
+}
+
+li.klali.numb3 {
+    margin-left:0.5rem;
+}
+
+li.klali.numb5 {
+    margin-left:0.45rem;
+}
+
+.col-sm-12.btndiv2 {
+    padding: 0;
+    background: #ecedee;
+    padding-top:1.65rem;
+    margin-top:1.95rem;
+}
+
+.vi {
+    text-align: center;
+    padding-top:3.15rem;
+}
+p.detsave {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top:0.95rem;
+    margin-bottom: 0;
+    line-height:0.3rem;
+}
+
+span.odk {
+    font-size: 0.86rem;
+    display: block;
+    padding-top: 5px;
+}
+
+.col-sm-12.btndiv3 {
+    background: #ecedee;
+    margin-top: 2.5rem;
+}
+.step5{
+    margin-right: 0;
+}
+
+.container {
+    width: 65rem !important;
+    max-width: 100%;
+}
+img.icon {
+    height: 4rem;
+    width: 6.5rem;
+}
+
+@media (max-width: 991px) {
+
+    .col-sm-12.general {
+        height: 65.6rem;
+    }
+    .betoh {
+        margin-top: -60.6rem;
+
+    }
+
+}
+
+/*.overflow{*/
+/*overflow-y: scroll;*/
+/*}*/
+
+.gate{
+    border-bottom: none;
+}
+
+div#manual {
+    float: right;
+    padding: 0;
+    margin: 0;
+    border-left: solid 1px;
+    max-width: 33.333333%;
+}
+
+div#withphone {
+    float: right;
+    margin: 0;
+    padding: 0;
+    border-left: solid 1px;
+    max-width: 33.333333%;
+}
+div#control {
+    float: right;
+    margin: 0;
+    padding: 0;
+    max-width: 33.333333%;
+
+}
+
+.havegate{display: block !important; margin-bottom: 25px;}
+
+.col-xs-12.overflow {
+    padding-bottom: 20px;
+}
+input#phoneforgare {
+    text-align: right;
+    color: #80787f;
+}
+
+#almostdone{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+button.btn.btn-lg.done {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top: 0.2rem;
+    border-radius: 0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+}
+
+.form-group.formforstep5 {
+    padding-right: 1.25rem;
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+label.labelim5 {
+    padding-top: 1.55rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+input#fname {
+    border-left: none;
+    border-radius: 0;
+    border-right: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep6 {
+    width: 50%;
+    display: inline-block;
+    float: right;
+    padding-left: 1.25rem;
+    text-align: right;
+}
+
+label.labelim6 {
+    padding-top: 1.55rem;
+    padding-right: 0.4rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+input#lname {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep7 {
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    float: right;
+    padding-right: 1.25rem;
+}
+
+label.labelim7 {
+    padding-top: 0.95rem;
+    padding-right: 0.4rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+input#bank {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep8 {
+    padding-left: 1.25rem;
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+label.labelim8 {padding-top: 0.95rem;padding-right: 0.4rem;font-size: 1.05rem;font-weight: bold;}
+
+input#banknumber {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+label.labelim9 {
+    padding-top: 0.75rem;
+    padding-right: 0.4rem;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+input#accountnumber {
+    border-right: none;
+    border-radius: 0;
+    border-left: none;
+    border-top: solid 2px #f1f2f2;
+    border-bottom: solid 2px #f1f2f2;
+}
+
+.form-group.formforstep9 {padding-right: 1.25rem;padding-left: 1.25rem;text-align: right;}
+
+button#done-steps {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    border-radius: 0.05rem;
+    font-size: 0.9rem;
+    color: white;
+    background: #f36f21;
+    cursor: pointer;
+    border: none;
+    margin-top: 0.9rem;
+}
+
+div#almostdone {
+    width: 100%;
+    margin: auto;
+    background: #ecedee;
+}
+
+.forbtn6 {
+    width: 100%;
+    margin: auto;
+    background: #ecedee;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+span#skip {
+    text-decoration: underline;
+    letter-spacing: 0.1rem;
+    font-size: 0.8rem;
+}
+
+.lastdiv {
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 2.7rem;
+}
+
+span.cong {
+    color: #f27123;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+p.cong {
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    letter-spacing: -1px;
+    line-height: 1.5rem;
+    color: #918a90;
+    padding-bottom: 1rem;
+}
+
+.parkingtime {
+    text-align: right;
+    color: #675f66;
+    background: #ecedee;
+}
+
+body > div.betoh > div.lastdiv > div:nth-child(3) > img {
+    float: right;
+    padding-right: 0.9rem;
+    padding-top: 2.7rem;
+    width: 3rem;
+}
+
+p.nazig {
+    padding-right: 3.6rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding-top: 2.5rem;
+    line-height: 1.2rem;
+}
+
+hr.kav {
+    width: 90%;
+    border-top: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+p.nazig.sheni {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0;
+}
+
+.parkingtime.sheni {
+    margin-top: -1rem;
+}
+
+body > div.betoh > div.lastdiv > div.parkingtime.sheni > img {
+    padding-top: 1.2rem;
+    width: 3rem;
+    float: right;
+    padding-right: 0.9rem;
+}
+
+p.interes {
+    padding-right: 3.5rem;
+    color: #f27123;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body > div > div > section.phonebox > div > div > div > div > div.lastdiv > img {
+    width: 9rem;
+}
+
+@media (max-width: 768px) {
+    p.forbox {
+        font-size: 0.8rem;
+    }
+    html {
+        font-size: 2.04vw;
+    }.betoh {
+
+         margin-left: 23.45rem;
+
+     }
+}
+@media (max-width: 575px) {
+    .container-fluid{
+        display: none !important;
+    }
+    html {
+        font-size: 5vw;
+    }
+    .phonetoplogo {
+        background: url(../img/pict.png) no-repeat;
+        height: 16.75rem;
+        background-size: 100% 100%;
+    }
+    .betoh {
+        margin-top: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+
+    }
+}
+input.numb {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding-left: 0;
+    font-size: 2rem;
+    box-shadow: none !important;
+    width: 1.75rem;
+    border: none;
+    text-align: center;
+    border-bottom: solid 1px black;
+    background: none;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+#explain{
+    resize: none !important;
+}
+
+.maim{
+    cursor: pointer;
+}
+
+.step6 input::placeholder{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+#harshama,
+#imutmispar,
+#zehumispar,
+#pirtihanay,
+#skip{
+    cursor: pointer;
+}

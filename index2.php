@@ -16,7 +16,6 @@
     <li></li>
     <li></li>
     <li></li>
-    life is great
 </ol>
 </body>
 </html>

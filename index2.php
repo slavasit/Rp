@@ -8,6 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
 </body>
 </html>
